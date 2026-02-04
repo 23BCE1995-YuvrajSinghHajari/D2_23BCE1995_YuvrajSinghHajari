@@ -1,0 +1,82 @@
+Assignment: Agile Development Model
+
+Project: AI-Driven Unified Data Platform (CMLRE - MoES)
+
+---
+
+## 1. Methodology Selection: The Scrum Framework
+
+For this project, we are adopting the Scrum model, a subset of Agile. Given the complexity of integrating 
+heterogeneous datasets (Oceanographic, Genomic, and Morphological), Scrum allows for iterative development, 
+frequent testing, and the flexibility to adjust AI models based on data quality.
+
+Core Scrum Components:
+
+* Sprint Duration: 2 Weeks.
+* Scrum Roles:
+    Product Owner: Simulating the Ministry of Earth Sciences (CMLRE).
+    Scrum Master: Managing the workflow and removing blockers.
+    Dev Team: CSE students (Full-stack, AI/ML, and Database roles).
+
+
+* Artifacts: Product Backlog, Sprint Backlog, and Burn-down Charts.
+
+---
+
+## 2. Pictorial Representation (Conceptual)
+
+1. Product Backlog (List of all features)
+2. Sprint Planning (Selecting tasks for the next 14 days)
+3. The Sprint (Development & Daily Stand-ups)
+4. Sprint Review (Demo of a functional module)
+5. Sprint Retrospective (Internal team improvement)
+
+See attached diagram for more information
+
+---
+
+## 3. Detailed Sprint Roadmap (12-Week Plan)
+
+Sprint 1- Infrastructure:
+Cloud environment setup, DB schema for Geospatial & NoSQL data.
+
+Sprint 2- Data Ingestion:
+Module to upload CSV/Excel/JSON with Darwin Core metadata tagging.
+
+Sprint 3- GIS Visualization:
+Interactive Leaflet.js maps showing ocean parameters (Temp/Salinity).
+
+Sprint 4- AI Bio-Module:
+Integration of BLAST API for eDNA matching and Otolith CNN prototype.
+
+Sprint 5- Cross-Analytics:
+AI-driven correlation reports (e.g., Environment vs. Fish Abundance).
+
+Sprint 6- Deployment:
+Final API documentation (Swagger), RBAC security, and UI polishing.
+
+---
+
+## 4. User Story Backlog (Requirement Examples)
+
+Agile requirements are defined by user stories to ensure the platform meets scientist needs:
+
+* Story 1: As a Marine Researcher*, I want to upload an eDNA sequence so that I can automatically match it against 
+  the GenBank database for species identification.
+* Story 2: As a Data Analyst*, I want to overlay fish distribution maps with salinity data to identify high-yield 
+  fishing zones.
+* Story 3: As a CMLRE Admin*, I want to manage role-based access to ensure sensitive molecular data is only 
+  accessible to authorized personnel.
+
+---
+
+## 5. Justification for Agile in this Project
+
+* Handling Complexity: The AI models for taxonomic classification require multiple iterations of training and 
+  validation; Agile supports this via incremental improvements.
+* Stakeholder Feedback: Regular "Sprint Reviews" ensure that the platform alignment stays close to the Ministry’s 
+  specific requirements for oceanographic data standards.
+* Risk Mitigation: By delivering a "Minimum Viable Product" (MVP) by Sprint 2 (the Ingestion Engine), we ensure that
+  the core functionality is always operational.
+
+---
