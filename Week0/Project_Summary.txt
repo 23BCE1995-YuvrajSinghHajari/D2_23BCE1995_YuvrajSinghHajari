@@ -1,0 +1,7 @@
+Project Summary 
+
+This project focuses on building an intelligent, unified data platform capable of integrating and analysing large-scale, heterogeneous marine datasets. CMLRE currently handles fragmented data across oceanography, fisheries, taxonomy, morphology, and molecular biology (including eDNA). The system aims to consolidate these datasets into a single interoperable platform with automated ingestion, metadata standardisation, cross-domain analytics, and interactive tools for species identification, otolith morphology, and biodiversity assessment. The end goal is to support real-time, data-driven decision-making for marine ecosystem management and sustainable fisheries. 
+
+Expected Outcomes 
+
+A scalable prototype of the unified marine data platform, modular ingestion pipelines, real-time visualisation dashboards, integrated taxonomy/morphology/eDNA modules, and well-documented APIs. The platform should enable CMLRE to perform holistic ecosystem assessments, streamline research workflows, and strengthen national marine resource management. 
