@@ -44,10 +44,3 @@ Maps the system workflow from user authentication to AI-driven report generation
 * **Design Tools:** StarUML
 
 ---
-
-## 🚦 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone <your-repo-link>
-cd cmlre-platform
