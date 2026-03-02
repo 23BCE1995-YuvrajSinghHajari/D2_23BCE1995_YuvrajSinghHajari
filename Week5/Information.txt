@@ -1,0 +1,42 @@
+Project Progress Report: 50% Implementation Milestone
+Software Engineering Lab
+Yuvraj Singh Hajari
+23BCE1995
+
+Project Title: 
+AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular Biodiversity Insights.
+________________________________________
+
+1. Problem Statement
+The Centre for Marine Living Resources and Ecology (CMLRE) currently manages vast quantities of oceanographic and biodiversity data that are stored in isolated, heterogeneous formats. This "siloed" data structure prevents seamless integration, making it difficult for scientists to correlate physical ocean parameters (like temperature and salinity) with biological shifts (like species migration or DNA changes). There is an urgent need for a unified "Data Backbone" that automates ingestion and enables AI-driven analysis for the Ministry of Earth Sciences.
+
+2. Objectives
+•	Unified Data Ingestion: To develop an automated pipeline capable of handling diverse marine datasets (CSV, Molecular, Morphological).
+•	Persistent Storage Architecture: To design a scalable database schema that adheres to international standards like Darwin Core (DwC).
+•	AI-Enabled Insights: To implement machine learning modules for tasks such as Otolith morphology analysis and species classification.
+•	Interactive Visualization: To provide scientists with a real-time dashboard for trend analysis and GIS mapping of marine biodiversity.
+
+3. Methodology / Approach
+The project follows the Agile-Scrum methodology to ensure iterative development and frequent feedback.
+•	Phase 1 (Design): Developed comprehensive UML modeling, including Use Case, Class, Activity, and Sequence diagrams to map system behavior.
+•	Phase 2 (Infrastructure): Built the backend using FastAPI for high-performance data handling and SQLAlchemy for Object-Relational Mapping.
+•	Phase 3 (Frontend): Developed a responsive dashboard using Streamlit to facilitate user-friendly data interaction and visualization.
+
+4. Work Completed So Far (50% Implementation)
+As of Week 5, the core structural and functional components of the platform are live:
+•	System Design: All primary UML diagrams are completed and pushed to the repository, defining the architecture for marine data processing.
+•	Functional Backend API: A working FastAPI server is implemented with an /ingest endpoint that validates and processes incoming marine CSV files.
+•	Database Integration: A persistent SQLite database is active, successfully storing metadata and research parameters permanently.
+•	MVP Dashboard: A functional Streamlit interface is deployed, allowing for drag-and-drop file uploads and instant trend line charts for parameters like temperature.
+
+5. Screenshots / Proof of Implementation
+•	GitHub Repository: [Insert your GitHub Link Here, e.g., https://github.com/yuvrajsingh/cmlre-platform]
+•	Documentation: High-resolution UML Sequence and Activity diagrams are available in the /docs folder of the repository.
+•	Live Backend: Screenshot of the FastAPI Swagger UI showing functional endpoints.
+•	Live Frontend: Screenshot of the Streamlit dashboard showing successfully ingested marine data and generated charts.
+6. Demo Video
+•	Link: https://drive.google.com/file/d/1frYztOX1FakeQxnV5oS7ZkpNt5gbvHiA/view?usp=sharing
+•	Content: The video covers the project's architectural logic, a walkthrough of the Python backend/database code, and a live demonstration of uploading a marine dataset to generate real-time insights.
+
+
+SCREENSHOTS attached in a folder called screenshots in Week 5 folder. 
