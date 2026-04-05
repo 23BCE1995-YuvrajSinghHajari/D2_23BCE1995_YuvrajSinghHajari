@@ -1,0 +1,49 @@
+Software Requirements Specification (SRS)
+Project: AI-Driven Unified Data Platform (PS ID: 25041)
+
+1. Introduction
+Purpose: To provide a unified digital backbone for CMLRE to integrate multidisciplinary marine data for sustainable 
+resource management.
+
+Scope: The system will handle data ingestion, AI-based taxonomic classification, eDNA sequence matching, and 3D 
+visualization of fish morphology.
+
+2. Overall Description
+Product Perspective: A web-based platform integrated with cloud storage (AWS/Azure) and international marine data 
+standards.
+
+User Classes: * Marine Scientists: Data upload, cross-domain analysis, and visualization.
+
+Policymakers: Accessing high-level biodiversity reports and trends.
+
+Administrators: Managing metadata standards and user permissions.
+
+3. Functional Requirements (FR)
+FR1: Automated Data Ingestion: Must support CSV, Excel (structured), JSON/XML (semi-structured), and imagery/FASTA 
+files (unstructured).
+
+FR2: Metadata Tagging: Automatic standardization of data using Darwin Core (DwC) and OBIS formats.
+
+FR3: AI Module (Taxonomy & Morphology): * Image-based identification of fish species using CNNs.
+
+Automated morphometric measurement extraction from otolith images.
+
+FR4: eDNA Integration: A module to store environmental DNA sequences and match them against global databases (like 
+GenBank) via APIs.
+
+FR5: Geospatial Visualization: An interactive GIS map showing fish distribution correlated with ocean parameters 
+(Temp, Salinity, pH).
+
+4. External Interface Requirements
+User Interfaces: Dashboard-style UI with specific tabs for "Oceanography," "Genomics," and "Morphology."
+
+Software Interfaces: Integration with Python-based ML libraries and PostGIS for mapping.
+
+Communication Interfaces: RESTful APIs for data exchange with other MoES departments.
+
+5. Non-Functional Requirements (NFR)
+Scalability: The backend must handle high-volume datasets (TB scale) without performance degradation.
+
+Security: Role-Based Access Control (RBAC) to protect sensitive biodiversity and national resource data.
+
+Interoperability: Ability to export data in formats compatible with international marine biological data portals.
